@@ -1,0 +1,402 @@
+/*?########################
+/*! ###########  team addon */
+/*? ######################## */
+#rez_team p {
+	margin: 0;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+
+#rez_team a {
+	color: #005eeb;
+}
+
+#rez_team a:hover {
+	color: #ffb200;
+}
+
+#rez_team .teamWrapper {
+	margin-top: 50px;
+}
+
+#rez_team .container {
+	--container: 1160px;
+	max-width: var(--container);
+	margin: auto;
+}
+
+#rez_team .avatar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -80px;
+	text-align: center;
+}
+
+#rez_team .teamcolinner {
+	position: relative;
+}
+
+#rez_team .avatar > img {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px solid rgb(170, 170, 173);
+	box-shadow: 0px 3px 10px 3px rgba(170, 170, 173, 0.5);
+}
+
+#rez_team .teamcolinner {
+	position: relative;
+	border: 1px dashed #ddd;
+	min-height: 100px;
+	background: #fff;
+	z-index: 9;
+}
+
+#rez_team .teamcol {
+	padding: 15px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	transition: transform 1s ease-in-out;
+}
+
+#rez_team .teamcol:hover {
+	transform: translateY(-30px);
+	box-shadow: 0px 3px 10px 3px rgba(170, 170, 173, 0.5);
+	transition: transform 1s ease-in-out;
+}
+
+#rez_team .teamcol:before {
+	content: "";
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: -webkit-linear-gradient(#ffbf00, #ffa000);
+	border-top-right-radius: 10px;
+	transition: width 1s ease-in-out;
+}
+
+#rez_team .teamcol:after {
+	content: "";
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(#0052cc, #005fec);
+	border-bottom-left-radius: 10px;
+	transition: width 1s ease-in-out;
+}
+
+#rez_team .teamcol:hover::before,
+#rez_team .teamcol:hover::after {
+	width: 100%;
+	transition: width 1s ease-in-out;
+}
+
+#rez_team .member-name {
+	margin-top: 80px;
+}
+
+#rez_team .member-info {
+	padding: 10px 20px;
+}
+
+#rez_team .social-listing {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+#rez_team .social-listing > li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	background: #f4f5f7;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+#rez_team .member-btn-container {
+	text-align: center;
+}
+/*?########################
+/*! ###########  slick carousel addon */
+/*? ######################## */
+.rwh-carousel-style .member-btn-container .member-btn-1 {
+	padding: 10px;
+	background: #ff8f005e;
+	display: block;
+	width: 200px;
+	margin: 15px auto;
+	border-radius: 10px;
+}
+
+.rwh-carousel-style .member-btn-container .member-btn-2 {
+	padding: 10px;
+	background: #ffd9005e;
+	border-radius: 10px;
+	display: block;
+	width: 200px;
+	margin: 15px auto;
+}
+
+.rwh-carousel-width {
+	width: 260px !important;
+}
+
+.rwh-carousel-style p {
+	margin: 0;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.rwh-carousel-style a {
+	color: #005eeb;
+}
+
+.rwh-carousel-style a:hover {
+	color: #ffb200;
+}
+
+.rwh-carousel-style .teamWrapper {
+	margin-top: 50px;
+}
+
+.rwh-carousel-style .container {
+	--container: 1160px;
+	max-width: var(--container);
+	margin: auto;
+}
+
+.rwh-carousel-style .avatar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -80px;
+	text-align: center;
+}
+
+.rwh-carousel-style .teamcolinner {
+	position: relative;
+}
+
+.rwh-carousel-style .avatar > img {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px solid rgb(170, 170, 173);
+	box-shadow: 0px 3px 10px 3px rgba(170, 170, 173, 0.5);
+}
+
+.rwh-carousel-style .teamcolinner {
+	position: relative;
+	border: 1px dashed #ddd;
+	min-height: 100px;
+	background: #fff;
+	z-index: 9;
+}
+
+.rwh-carousel-style .teamcol {
+	padding: 15px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	transition: transform 1s ease-in-out;
+}
+
+.rwh-carousel-style .teamcol:hover {
+	transform: translateY(-30px);
+	box-shadow: 0px 3px 10px 3px rgba(170, 170, 173, 0.5);
+	transition: transform 1s ease-in-out;
+}
+
+.rwh-carousel-style .teamcol:before {
+	content: "";
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: -webkit-linear-gradient(#ffbf00, #ffa000);
+	border-top-right-radius: 10px;
+	transition: width 1s ease-in-out;
+}
+
+.rwh-carousel-style .teamcol:after {
+	content: "";
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(#0052cc, #005fec);
+	border-bottom-left-radius: 10px;
+	transition: width 1s ease-in-out;
+}
+
+.rwh-carousel-style .teamcol:hover::before,
+.rwh-carousel-style .teamcol:hover::after {
+	width: 100%;
+	transition: width 1s ease-in-out;
+}
+
+.rwh-carousel-style .member-name {
+	margin-top: 80px;
+}
+
+.rwh-carousel-style .member-info {
+	padding: 10px 20px;
+}
+
+.rwh-carousel-style .social-listing > li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	background: #f4f5f7;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.rwh-carousel-style .member-btn-container {
+	text-align: center;
+}
+
+.rwh-carousel-style .member-btn-container .member-btn-1 {
+	padding: 10px;
+	background: #ff8f005e;
+	display: block;
+	width: 150px;
+	margin: 15px auto;
+	border-radius: 10px;
+}
+
+.rwh-carousel-style .member-btn-container .member-btn-2 {
+	padding: 10px;
+	background: #ffd9005e;
+	border-radius: 10px;
+	display: block;
+	width: 150px;
+	margin: 15px auto;
+}
+
+.teamcol.rwh-carousel-width {
+	margin: 100px 7px;
+}
+
+.rwhm_slider_slick {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*?########################
+/*! ########### another team addon */
+/*? ######################## */
+
+.rez-container {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.rez-team-members {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.rez-team-member-image {
+	text-align: center;
+	padding: 40px;
+	border-bottom: 10px solid #e80000;
+}
+.elementor .rez-team-member-image img {
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+}
+.rez-team-member-info {
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+.rez-team-member-meta svg {
+	width: 16px;
+	color: #fff;
+}
+.rez-team-member-meta p {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.rez-team-member-meta span {
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+	background: red;
+	border-radius: 50%;
+	margin-right: 10px;
+	min-width: 30px;
+}
+.rez-single-team-member-inner {
+	position: relative;
+	box-shadow: 0px 2px 8px #000;
+}
+.rez-team-member-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color: #fff;
+	padding: 20px;
+	border-top: 10px solid #e80000;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.rez-single-team-member:hover .rez-team-member-hover {
+	opacity: 1;
+	visibility: visible;
+}
+.rez-team-member-hover .rez-team-member-info {
+	padding: 0;
+	margin-bottom: 40px;
+}
+.rez-team-member-info h3 {
+	margin-bottom: 0px;
+}
+.rez-team-member-hover .icon-box {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.rez-team-member-hover .icon-box i {
+	padding: 10px;
+	background: red;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+
+	margin-right: 15px;
+}
+.rez-team-member-meta {
+	margin-bottom: 35px;
+}
